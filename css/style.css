@@ -203,7 +203,7 @@ body {
 
 #hero .hero-container {
   position: relative;
-  left: -200px;
+  left: -150px;
   z-index: 2;
   min-width: 300px;
 }
@@ -333,4 +333,27 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+/* end about */
+/* start interest */
+.interests{
+  padding-left: calc(300px + 1vw);
+  background-color: #DCE1E3;
+}
+
+.interests .interest-box{
+  padding: 30px;
+  width: 100%;
+}
+.interest-box i{
+  display: block;
+  padding-left: 15px;
+  font-size: 44px;
+  color: #173b6c;
+  float: Top;
+
+}
+.interest-box p{
+  padding: 15px; 
+  color: #173b6c;
 }
