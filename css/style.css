@@ -339,10 +339,14 @@ section {
 .interests{
   padding-left: calc(300px + 1vw);
   background-color: #DCE1E3;
+  top: -100px;
+}
+@media (max-width: 1199px) {
+  .interests { padding-left: 50px; }
 }
 
 .interests .interest-box{
-  padding: 30px;
+  padding: 10px;
   width: 100%;
 }
 .interest-box i{
