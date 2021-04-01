@@ -257,7 +257,6 @@ body {
 /* Section General*/
 section {
   padding: 60px;
-  overflow: hidden;
 }
 
 
@@ -292,8 +291,6 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
-
-
 
 /* About section*/
 .about{
@@ -361,3 +358,71 @@ section {
   padding: 15px; 
   color: #173b6c;
 }
+/* end interest */
+.skills{
+  padding-left: calc(300px + 1vw);
+  background-color: #fff;
+}
+@media (max-width: 1199px) {
+  .skills { padding-left: 50px; }
+}
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #dce8f8;
+  height: 10px;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #149ddd;
+}
+/* end skills section */
+/* resume section */
+.resume{
+  padding-left: calc(300px + 1vw);
+  background-color: #DCE1E3;
+}
+.resume p{
+  font-size: 24px;
+}
+@media (max-width: 1199px) {
+  .resume { padding-left: 50px; }
+}
+.resume .resume-title{
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #173b6c;
+
+}
+
+.resume .resume-item{
+  padding-top: 30px;
+}
+
+
+
