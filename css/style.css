@@ -335,7 +335,7 @@ section {
 /* start interest */
 .interests{
   padding-left: calc(300px + 1vw);
-  background-color: #DCE1E3;
+  background-color: #fff;
   top: -100px;
 }
 @media (max-width: 1199px) {
@@ -361,7 +361,7 @@ section {
 /* end interest */
 .skills{
   padding-left: calc(300px + 1vw);
-  background-color: #fff;
+  background-color: #DCE1E3;
 }
 @media (max-width: 1199px) {
   .skills { padding-left: 50px; }
@@ -403,25 +403,64 @@ section {
 /* resume section */
 .resume{
   padding-left: calc(300px + 1vw);
-  background-color: #DCE1E3;
+  background-color: #fff;
 }
-.resume p{
-  font-size: 24px;
-}
-@media (max-width: 1199px) {
-  .resume { padding-left: 50px; }
-}
-.resume .resume-title{
+.resume .resume-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #173b6c;
-
+  color: #050d18;
 }
 
-.resume .resume-item{
-  padding-top: 30px;
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+   padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 60px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
 }
 
 
