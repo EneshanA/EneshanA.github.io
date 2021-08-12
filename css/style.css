@@ -183,7 +183,7 @@ body {
 /*   End Socials   */
 
 
-#handsome {
+#home {
   width: 100%;
   height: 100vh;
   background: url("../img/brooklyn2.png");
@@ -191,7 +191,7 @@ body {
   background-size: cover;
 }
 
-#handsome:before {
+#home:before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -201,19 +201,19 @@ body {
   z-index: 1;
 }
 
-#handsome .handsome-container {
+#home .home-container {
   position: relative;
   left: -150px;
   z-index: 2;
   min-width: 300px;
 }
 @media(max-width: 1199px){
-  #handsome .handsome-container{
+  #home .home-container{
     left: 0px;
   }
 }
 
-#handsome h1 {
+#home h1 {
   margin: 0 0 10px 0;
   font-size: 40px;
   font-weight: 700;
@@ -221,14 +221,14 @@ body {
   color: #fff;
 }
 
-#handsome p {
+#home p {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "OpenSans";
 }
 
-#handsome p span {
+#home p span {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
@@ -238,17 +238,17 @@ body {
 }
 
 @media (min-width: 1024px) {
-  #handsome {
+  #home {
     background-attachment: fixed;
   }
 }
 
 @media (max-width: 768px) {
-  #handsome h1 {
+  #home h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #handsome h2 {
+  #home h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
